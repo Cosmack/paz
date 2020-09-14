@@ -1,0 +1,235 @@
+body{
+	background-color: black;
+
+	font-family: sans-serif;
+
+	user-select: none;
+}
+
+/*  Page  */
+.title>.big{
+	color: #F5B041;
+	font-size: 10em;
+	letter-spacing: 0.5em;
+}
+
+.title>.small{
+	font-size: 2.5em;
+	letter-spacing: 1.77em;
+}
+
+.info-win{
+	margin-top: 4em;
+}
+
+.info-win>.player-head{
+	color: black;
+}
+
+/*  Game  */
+.board{
+	display: flex;
+	flex-direction: column;
+
+	min-height: 700px;
+
+	border: 3px solid #85C1E9;
+	border-radius: 5px;
+
+	padding: 10px;
+}
+
+.landing{
+	color: #85C1E9;
+	text-align: center;
+	padding-top: 3em;
+
+	/*transform: rotateX(45deg);*/
+}
+
+.title{
+	margin-bottom: 8em;
+}
+
+.player{
+
+	border: 2px solid #85C1E9;
+	border-radius: 3px;
+
+	margin-bottom: 5px;
+}
+
+.player-head{
+	font-size: 1.3em;
+	background-color: #85C1E9;
+	padding: 5px;
+}
+
+.player-wins{
+	float:right;
+}
+
+.player-body{
+	padding: 10px;
+}
+
+.player-count{
+	font-size: 4em;
+	color: #85C1E9;
+
+	margin-right: 10px;
+}
+
+.player-cards{
+	border: 2px solid #85C1E9;
+	border-radius: 3px;
+
+	display: inline-block;
+}
+
+.player-hand{
+	float: right;
+}
+
+.player-control{
+	float: right;
+
+	border-left: 2px solid #85C1E9;
+	border-top: 2px solid #85C1E9;
+	border-top-left-radius: 5px;
+}
+
+hl{ /* Highlight */
+	color:  #F5B041;
+}
+
+.player-control>button{
+	padding: 10px;
+	font-size: 1.3em;
+	background-color: #85C1E9;
+	
+	border: none;
+
+	cursor: pointer;
+}
+
+.player-control>button:hover{
+	background-color: #AED6F1;
+}
+
+.player-control>button:active{
+	background-color: #5DADE2;
+}
+
+.player-control>button:first-child{
+	border-top-left-radius: 2px;
+}
+
+.card{
+	font-size: 3em;
+	padding: 5px;
+	display: inline-block;
+	border-radius: 3px;
+}
+
+.card-type{
+	font-size:0.5em;
+}
+
+.player-hand>.card{
+	cursor: pointer;
+}
+
+.winner{
+	color: #85C1E9;
+
+	font-size: 4em;
+}
+
+.newgame-btn{
+	padding: 10px;
+	font-size: 1.3em;
+	background-color: #85C1E9;
+	
+	border: none;
+
+	cursor: pointer;
+}
+
+.btn{
+
+}
+
+.newgame-btn:hover{
+	background-color: #AED6F1;
+}
+
+.newgame-btn:active{
+	background-color: #5DADE2;
+}
+
+/*Old*/
+.player-area{
+	display: inline-block;
+	width: 49%;
+
+}
+
+.play-grid{
+	/*display: flex;*/
+	flex-wrap: flex;
+}
+
+.hand-grid{
+	/*display: flex*/
+}
+
+/* w3schools.com modal example css */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.modal-content{
+	border: 3px solid #85C1E9;
+	border-radius: 5px;
+	background-color: black;
+	color: #85C1E9;
+
+	font-size: 3em;
+}
+
+/* The Close Button */
+.close {
+  /*color: #aaa;*/
+  color: #85C1E9;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  /*color: black;*/
+  color: #F5B041;
+  text-decoration: none;
+  cursor: pointer;
+}
